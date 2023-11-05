@@ -98,17 +98,6 @@ export class AppComponent {
       "registrationDate": 1686060000000
     },
     {
-      "firstName": "Konrad",
-      "lastName": "Thiemann",
-      "email": "konrad.gruss@t-online.de",
-      "birthDate": 677109600000,
-      "street": "Kastanienallee 35",
-      "zipCode": "38104",
-      "city": "Braunschweig",
-      "id": "bdt4s5YVfcJRK3DVTaHm",
-      "registrationDate": 1697050843775
-    },
-    {
       "firstName": "Mayla",
       "lastName": "Highmountain",
       "email": "Mayla@Highmountain.com",
