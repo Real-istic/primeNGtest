@@ -1,15 +1,20 @@
+<div class="flex flex-column align-items-center justify-content-center h-full">
+  <p-dropdown [options]="themes" [(ngModel)]="selectedTheme" (onChange)="changeTheme(selectedTheme.id)"
+    styleClass="mb-3"></p-dropdown>
+</div>
 <div class="card">
   <p-table #dt1 [value]="tableData" [paginator]="true" [rows]="10" [showCurrentPageReport]="true"
     [tableStyle]="{ 'min-width': '50rem' }"
-    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [rowsPerPageOptions]="[10, 15, 20]" [globalFilterFields]="['firstName', 'lastName', 'id', 'email']">
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [rowsPerPageOptions]="[10, 15, 20]"
+    [globalFilterFields]="['firstName', 'lastName', 'id', 'email']">
 
     <ng-template pTemplate="caption">
       <div class="flex">
         <button pButton label="Clear" class="mybutton" icon="pi pi-filter-slash" (click)="clear(dt1)"></button>
         <span class="p-input-icon-left ml-auto">
           <i class="pi pi-search"></i>
-          <input [(ngModel)]="searchText" pInputText type="text" (input)="dt1.filterGlobal($any($event.target).value, 'contains')"
-            placeholder="Search keyword" />
+          <input [(ngModel)]="searchText" pInputText type="text"
+            (input)="dt1.filterGlobal($any($event.target).value, 'contains')" placeholder="Search keyword" />
         </span>
       </div>
     </ng-template>

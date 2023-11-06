@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Table } from 'primeng/table';
+import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Table } from 'primeng/table';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  appService: any = inject(AppService);
   title = 'primeNGtest';
   tableData: any = [
     {
@@ -212,6 +214,23 @@ export class AppComponent {
   searchfield: any;
 
   constructor() { }
+
+  themes = [
+    {
+      id: 'lara-light-blue',
+      label: 'Lara Light Blue'
+    },
+    {
+      id: 'bootstrap4-dark-blue',
+      label: 'Bootstrap 4 Dark Blue'
+    }
+  ];
+
+  selectedTheme: { id: string; label: string } = this.themes[0];
+
+  changeTheme(themeId: string) {
+    this.appService.switchTheme(themeId);
+  }
 
   clear(table: Table) {
     this.searchText = "";
