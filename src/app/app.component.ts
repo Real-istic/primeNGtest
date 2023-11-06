@@ -223,7 +223,11 @@ export class AppComponent {
     {
       id: 'bootstrap4-dark-blue',
       label: 'Bootstrap 4 Dark Blue'
-    }
+    },
+    {
+      id: 'md-light-deeppurple',
+      label: 'Material Light Deeppurple'
+    },
   ];
 
   selectedTheme: { id: string; label: string } = this.themes[0];

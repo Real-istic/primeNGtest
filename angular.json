@@ -40,6 +40,11 @@
                 "input": "src/themes/lara-light-blue.css",
                 "bundleName": "lara-light-blue",
                 "inject": false
+              },
+              {
+                "input": "src/themes/md-light-deeppurple.css",
+                "bundleName": "md-light-deeppurple",
+                "inject": false
               }
             ],
             "scripts": []
