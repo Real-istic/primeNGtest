@@ -1,4 +1,4 @@
-<div class="flex flex-column align-items-center justify-content-center h-full">
+<div pTooltip="Choose your Theme" tooltipPosition="bottom" class="flex flex-column align-items-center justify-content-center">
   <p-dropdown [options]="themes" [(ngModel)]="selectedTheme" (onChange)="changeTheme(selectedTheme.id)"
     styleClass="mb-3"></p-dropdown>
 </div>
@@ -10,10 +10,10 @@
 
     <ng-template pTemplate="caption">
       <div class="flex">
-        <button pButton label="Clear" class="mybutton" icon="pi pi-filter-slash" (click)="clear(dt1)"></button>
+        <button pTooltip="Clear search results" pButton label="Clear" class="mybutton" icon="pi pi-filter-slash" (click)="clear(dt1)"></button>
         <span class="p-input-icon-left ml-auto">
           <i class="pi pi-search"></i>
-          <input [(ngModel)]="searchText" pInputText type="text"
+          <input pTooltip="Search in any category" tooltipPosition="bottom" [(ngModel)]="searchText" pInputText type="text"
             (input)="dt1.filterGlobal($any($event.target).value, 'contains')" placeholder="Search keyword" />
         </span>
       </div>

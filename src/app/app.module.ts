@@ -11,6 +11,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { CardModule } from 'primeng/card';
 import { DropdownModule } from 'primeng/dropdown';
 import { HttpClientModule } from '@angular/common/http';
+import { TooltipModule } from 'primeng/tooltip';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     CardModule,
     DropdownModule,
     HttpClientModule,
-
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
