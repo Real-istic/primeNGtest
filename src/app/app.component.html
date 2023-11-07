@@ -2,6 +2,7 @@
   <p-dropdown [options]="themes" [(ngModel)]="selectedTheme" (onChange)="changeTheme(selectedTheme.id)"
     styleClass="mb-3"></p-dropdown>
 </div>
+
 <div class="card">
   <p-table #dt1 [value]="tableData" [paginator]="true" [rows]="10" [showCurrentPageReport]="true"
     [tableStyle]="{ 'min-width': '50rem' }"
@@ -25,6 +26,7 @@
         <th pSortableColumn="lastName">Nachname</th>
         <th pSortableColumn="id">ID</th>
         <th pSortableColumn="email">E-Mail</th>
+        <th pSortableColumn="messagecounter">Messages</th>
       </tr>
     </ng-template>
     <ng-template pTemplate="body" let-userData>
@@ -33,6 +35,7 @@
         <td>{{userData.lastName}}</td>
         <td>{{userData.id}}</td>
         <td>{{userData.email}}</td>
+        <td><p-button label="Messages" icon="pi pi-users" styleClass="p-button-warning" badge="{{userData.messagecounter}}" badgeClass="p-badge-danger"></p-button></td>
       </tr>
     </ng-template>
   </p-table>

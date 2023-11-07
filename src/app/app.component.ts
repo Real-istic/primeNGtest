@@ -20,7 +20,8 @@ export class AppComponent {
       "zipCode": 54321,
       "city": "Darnassus",
       "id": "4AENg4oAl1kxf6ZRSgAx",
-      "registrationDate": 1694815200000
+      "registrationDate": 1694815200000,
+      "messagecounter": 0
     },
     {
       "firstName": "Rokhan",
@@ -31,7 +32,8 @@ export class AppComponent {
       "zipCode": 23456,
       "city": "Durotar",
       "id": "DCli22p31fjGZd24J1nT",
-      "registrationDate": 1693845600000
+      "registrationDate": 1693845600000,
+      "messagecounter": 2
     },
     {
       "firstName": "Mal'ganis",
@@ -42,7 +44,8 @@ export class AppComponent {
       "zipCode": 67890,
       "city": "Stratholme",
       "id": "Dn9XTfApk2IYMocueZXo",
-      "registrationDate": 1695212000000
+      "registrationDate": 1695212000000,
+      "messagecounter": 1
     },
     {
       "firstName": "Varian",
@@ -53,7 +56,8 @@ export class AppComponent {
       "zipCode": 11111,
       "city": "Stormwind",
       "id": "GXzdM5b9JdvhplxtlyxL",
-      "registrationDate": 1685863200000
+      "registrationDate": 1685863200000,
+      "messagecounter": 4
     },
     {
       "firstName": "Jaina",
@@ -64,7 +68,8 @@ export class AppComponent {
       "zipCode": "22222",
       "city": "Dustwallow Marsh",
       "id": "I1w6fFNXJCybT8CTcAfP",
-      "registrationDate": 1699178949126
+      "registrationDate": 1699178949126,
+      "messagecounter": 2
     },
     {
       "firstName": "Vol'jin",
@@ -75,7 +80,8 @@ export class AppComponent {
       "zipCode": 56789,
       "city": "Durotar",
       "id": "IKvU6vt5MFEmKemvtmmm",
-      "registrationDate": 1683458400000
+      "registrationDate": 1683458400000,
+      "messagecounter": 5
     },
     {
       "firstName": "Gazlowe",
@@ -86,7 +92,8 @@ export class AppComponent {
       "zipCode": 34567,
       "city": "The Barrens",
       "id": "L9d6Mjf2Xu0xxyes70pk",
-      "registrationDate": 1694522400000
+      "registrationDate": 1694522400000,
+      "messagecounter": 2
     },
     {
       "firstName": "Thrall",
@@ -97,7 +104,8 @@ export class AppComponent {
       "zipCode": 56789,
       "city": "Orgrimmar",
       "id": "NwMsXy5veU5g2V7SQSf1",
-      "registrationDate": 1686060000000
+      "registrationDate": 1686060000000,
+      "messagecounter": 7
     },
     {
       "firstName": "Mayla",
@@ -108,7 +116,8 @@ export class AppComponent {
       "zipCode": 23456,
       "city": "Thunder Totem",
       "id": "cm0Afbzh64QKxftVvXtV",
-      "registrationDate": 1684754400000
+      "registrationDate": 1684754400000,
+      "messagecounter": 3
     },
     {
       "firstName": "Velen",
@@ -119,7 +128,8 @@ export class AppComponent {
       "zipCode": 34567,
       "city": "Exodar",
       "id": "g0BB2UYci9WqZOHV8ox3",
-      "registrationDate": 1684298400000
+      "registrationDate": 1684298400000,
+      "messagecounter": 2
     },
     {
       "firstName": "Saurfang",
@@ -130,7 +140,8 @@ export class AppComponent {
       "zipCode": 65432,
       "city": "Nagrand",
       "id": "hTHoSEBArSCEDvKety8U",
-      "registrationDate": 1686760800000
+      "registrationDate": 1686760800000,
+      "messagecounter": 1
     },
     {
       "firstName": "Grom",
@@ -141,7 +152,8 @@ export class AppComponent {
       "zipCode": 67890,
       "city": "Orgrimmar",
       "id": "l96BktUo3NRzRb3mg6hN",
-      "registrationDate": 1692746400000
+      "registrationDate": 1692746400000,
+      "messagecounter": 8
     },
     {
       "firstName": "Talanji",
@@ -152,7 +164,8 @@ export class AppComponent {
       "zipCode": 23456,
       "city": "Zuldazar",
       "id": "nGfOoSMPfzj0au8lJeSW",
-      "registrationDate": 1683602400000
+      "registrationDate": 1683602400000,
+      "messagecounter": 1
     },
     {
       "firstName": "Sylvanas",
@@ -163,7 +176,8 @@ export class AppComponent {
       "zipCode": "54321",
       "city": "Tirisfal Glades",
       "id": "q6CmibfmYkgMGCfZOKVV",
-      "registrationDate": 1699178764460
+      "registrationDate": 1699178764460,
+      "messagecounter": 2
     },
     {
       "firstName": "Tyrande",
@@ -174,7 +188,8 @@ export class AppComponent {
       "zipCode": 23456,
       "city": "Darnassus",
       "id": "qBJjyFXEN9wovtWQLHLP",
-      "registrationDate": 1694200800000
+      "registrationDate": 1694200800000,
+      "messagecounter": 1
     },
     {
       "firstName": "Cairne",
@@ -185,7 +200,8 @@ export class AppComponent {
       "zipCode": 43210,
       "city": "Thunder Bluff",
       "id": "sD4ii5dxzwaT3pIdICPG",
-      "registrationDate": 1685234400000
+      "registrationDate": 1685234400000,
+      "messagecounter": 4
     },
     {
       "firstName": "Anduin",
@@ -196,7 +212,8 @@ export class AppComponent {
       "zipCode": "11111",
       "city": "Stormwind",
       "id": "t8nSA7WlniulGjy8EExF",
-      "registrationDate": 1699178853952
+      "registrationDate": 1699178853952,
+      "messagecounter": 7
     },
     {
       "firstName": "Tinkmaster",
@@ -207,7 +224,8 @@ export class AppComponent {
       "zipCode": 23456,
       "city": "Ironforge",
       "id": "zXPfxct3YnE7Acoi3SI3",
-      "registrationDate": 1691912000000
+      "registrationDate": 1691912000000,
+      "messagecounter": 2
     }
   ];
   searchText: any;
