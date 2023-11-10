@@ -229,10 +229,6 @@ export class AppComponent {
     }
   ];
   searchText: any;
-  searchfield: any;
-
-  constructor() { }
-
   themes = [
     {
       id: 'lara-light-blue',
@@ -249,6 +245,9 @@ export class AppComponent {
   ];
 
   selectedTheme: { id: string; label: string } = this.themes[0];
+
+
+  constructor() { }
 
   changeTheme(themeId: string) {
     this.appService.switchTheme(themeId);
